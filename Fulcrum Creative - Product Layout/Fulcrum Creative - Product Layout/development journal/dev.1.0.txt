@@ -1,0 +1,14 @@
+update_options issue.
+
+update option does not work into updating the css_options value.
+
+secondary and tertiary options.css.
+
+
+
+todo
+add placeholder for all product images and text/borders.
+take screenshots.
+incorporate screenshots, give people options.
+fix status messages.
+add css for options screen?

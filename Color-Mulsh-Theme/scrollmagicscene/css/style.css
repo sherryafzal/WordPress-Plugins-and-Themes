@@ -1,0 +1,2861 @@
+/*
+
+Theme Name: Color Mulsh
+
+Theme URI: http://test.efmmag.com
+
+Author: Shaheryar Afzal / Fulcrum Creative.
+
+Author URI: http://www.fulcrum-creative.com/
+
+Description: This is something i threw together.
+
+License: GNU Trying to figure out a commercial liscense.
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Text Domain: twentyfifteen
+
+
+
+
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+
+	
+
+
+
+width:101%;
+
+margin-left:-5px;
+
+
+
+height:auto;
+
+overflow-x:hidden;
+
+}
+
+
+
+
+
+
+
+body{
+
+
+
+	width:auto;
+
+	
+
+float:left;
+
+
+
+	
+
+
+
+
+
+
+
+}
+
+
+
+.woocommerce-products-header
+
+{
+
+	display:none;
+
+
+
+}
+
+
+
+
+
+#customer_login{
+
+	margin-left:300px;
+
+	color:white;
+
+	width:500px;
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+.woocommerce{
+
+margin-top:90px;
+
+
+
+	width:130%;
+
+	
+
+
+
+}
+
+.woocommerce table.shop_table
+
+{
+
+
+
+
+
+	width:200% !important;
+
+	color:white;
+
+
+
+
+
+
+
+}
+
+.content-area{
+	margin-top:120px;
+
+}
+
+
+
+#content > header{
+
+	margin-top:100px;
+
+
+
+}
+
+
+
+#main-text{
+
+
+
+
+
+
+
+color:white;
+
+	margin-left:10%;
+
+	z-index:300;
+
+	padding-top:15%;
+
+}
+
+
+
+
+
+
+
+
+.straight_line{
+
+
+	height:10px;
+	width:900px;
+	background-color:white;
+	margin-top:200px;
+margin-left:40%;
+	
+	z-index:2000;
+	
+	
+	
+	}
+
+
+	.straight_line_2{
+
+
+		height:10px;
+
+		transform: rotate(-20deg);
+
+
+		width:900px;
+		background-color:white;
+		margin-top:200px;
+	margin-left:40%;
+		
+		z-index:2000;
+		
+		
+		
+		}
+	
+	
+	
+
+
+
+	
+
+#circle_2{
+
+	background-color:orange;
+
+
+
+
+	right:100px !important;
+
+	border-radius: 50% black;
+
+
+margin-top:100px;
+
+text-decoration:none;
+
+
+margin-left:-20%;
+
+
+	-webkit-border-radius: 50%;
+
+	-moz-border-radius: 50%;
+
+    height:300px;
+width:300px;
+
+	color:black;
+
+
+	overflow:hidden;
+
+	vertical-align:top;
+
+	
+
+
+
+
+position:absolute;
+
+
+
+z-index:1500 !important;
+
+
+
+
+
+	
+
+  animation: animationFrames ease 1s;
+
+  animation-iteration-count: 1;
+
+  transform-origin: 50% 50%;
+
+  animation-fill-mode:forwards; /*when the spec is finished*/
+
+  -webkit-animation: animationFrames ease 1s;
+
+  -webkit-animation-iteration-count: 1;
+
+  -webkit-transform-origin: 50% 50%;
+
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+
+  -moz-animation: animationFrames ease 1s;
+
+  -moz-animation-iteration-count: 1;
+
+  -moz-transform-origin: 50% 50%;
+
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+
+  -o-animation: animationFrames ease 1s;
+
+  -o-animation-iteration-count: 1;
+
+  -o-transform-origin: 50% 50%;
+
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+
+  -ms-animation: animationFrames ease 1s;
+
+  -ms-animation-iteration-count: 1;
+
+  -ms-transform-origin: 50% 50%;
+
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+
+
+		
+
+}
+
+
+
+
+
+
+
+
+
+
+.blackstrip_footer
+
+{
+
+	
+
+	background-color:transparent;
+
+	opacity:1;
+
+	
+
+	float:left;
+
+
+
+	height:190px;
+
+	width:103%;
+
+	z-index:900 !important;
+
+	position:relative;
+
+	vertical-align:bottom;
+
+	
+
+}
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+#body-layer2{
+
+display:none;	
+
+background:#34495e;
+
+opacity:0.7;
+
+width:90%;
+
+float:left;
+
+margin-left:0%;
+
+height:70%;
+
+z-index:-200 !important;
+
+border-radius:20px;
+
+margin-top:10%;
+
+border:4px;
+
+border-color:black;
+
+
+
+
+
+position:fixed;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.body_text{
+
+	
+
+	
+
+	z-index:300 !important;
+
+}
+
+
+
+
+
+
+
+#slider{
+
+
+
+margin-top:150px;
+
+margin-bottom:100px;
+
+
+
+	opacity:1;
+
+	position:relative;
+
+
+
+    
+
+	z-index:1000 !important;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+#slider-fade
+
+{
+
+	
+
+float:right;	
+
+margin-right:40%;
+
+	
+
+}
+
+
+
+
+
+#custom-divider-text{
+
+color:blue;
+
+width:100%;
+
+background-color:black;
+
+height:400px;
+
+float:left;
+
+position:absolute;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#bar-widgets{
+
+
+
+
+
+position:relative;
+
+display:block;
+
+margin-left:10%;
+
+margin-right:20%;
+
+width:100%;
+
+
+
+margin-top:-35%;
+
+float:right;
+
+padding:40px;
+
+z-index:1000;
+
+
+
+
+
+}
+
+
+
+.bar-widgets-1 > div > img, .bar-widgets-2 > div > img, .bar-widgets-3 > div > img{
+
+	width:100px;
+
+	height:auto;
+
+	float:right;
+
+	margin:auto;
+
+	z-index:1000;
+
+
+
+}
+
+
+
+
+
+
+
+.bar-widgets-1{
+
+
+
+
+vertical-align: middle;
+	margin-top:45%;
+
+	float:right;
+
+border-radius:2px;
+
+border:2px;
+
+border-color:black;
+
+	font-size:12px;
+
+	z-index:600 !important;
+
+	color:black;
+
+	height:140px;
+
+	width:400px;
+
+   border-style:solid;
+
+
+
+    opacity:0.8;
+
+   	   	padding:20px;
+
+
+
+    display:block !important;
+
+    position:absolute;
+
+margin-bottom:100px;
+
+margin-left:65%;
+
+
+
+}
+
+
+
+
+
+.bar-widgets-2{
+
+	margin-top:60%;
+
+	float:right;
+
+
+
+border-radius:2px;
+
+border:2px;
+
+border-color:black;
+
+	font-size:12px;
+
+	z-index:600 !important;
+
+	color:black;
+
+	height:140px;
+
+	width:400px;
+
+   border-style:solid;
+
+	
+
+    opacity:0.8;
+
+   	   	padding:20px;
+
+
+
+    display:block !important;
+
+	position:absolute;
+
+	margin-bottom:100px;
+
+	margin-left:65%;
+
+
+
+}
+
+.bar-widgets-3{
+
+	margin-top:75%;
+
+	float:right;
+
+border-radius:2px;
+
+border:2px;
+
+border-color:black;
+
+	font-size:12px;
+
+	z-index:600 !important;
+
+	color:black;
+
+	height:140px;
+
+	width:400px;
+
+   border-style:solid;
+
+
+    opacity:0.8;
+
+   	padding:20px;
+
+    display:block !important;
+
+	position:absolute;
+
+	margin-bottom:100px;
+
+	margin-left:65%;
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#text_alignment{
+
+	margin-top:100px;
+
+	margin-left:150px;
+
+	margin-right:150px;
+
+	padding-left:200px;
+
+	padding-right:200px;
+
+position:absolute;
+
+	padding-top:0px;
+
+	z-index:800 !important;
+
+	color:black;
+
+	float:left;
+
+   background: rgba(255, 255, 255, .5);
+
+   z-index:500;
+
+   width:60%;
+
+   
+
+	
+
+	
+
+	
+
+	 
+
+    
+
+  animation: animationFrames ease 1s;
+
+  animation-iteration-count: 1;
+
+  transform-origin: 50% 50%;
+
+  animation-fill-mode:forwards; /*when the spec is finished*/
+
+  -webkit-animation: animationFrames ease 1s;
+
+  -webkit-animation-iteration-count: 1;
+
+  -webkit-transform-origin: 50% 50%;
+
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+
+  -moz-animation: animationFrames ease 1s;
+
+  -moz-animation-iteration-count: 1;
+
+  -moz-transform-origin: 50% 50%;
+
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+
+  -o-animation: animationFrames ease 1s;
+
+  -o-animation-iteration-count: 1;
+
+  -o-transform-origin: 50% 50%;
+
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+
+  -ms-animation: animationFrames ease 1s;
+
+  -ms-animation-iteration-count: 1;
+
+  -ms-transform-origin: 50% 50%;
+
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+}
+
+
+
+@keyframes animationFrames{
+
+  0% {
+
+    opacity:0;
+
+    transform:  translate(0px,-25px)  ;
+
+  }
+
+  100% {
+
+    opacity:1;
+
+    transform:  translate(0px,0px)  ;
+
+  }
+
+}
+
+
+
+@-moz-keyframes animationFrames{
+
+  0% {
+
+    opacity:0;
+
+    -moz-transform:  translate(0px,-25px)  ;
+
+  }
+
+  100% {
+
+    opacity:1;
+
+    -moz-transform:  translate(0px,0px)  ;
+
+  }
+
+}
+
+
+
+@-webkit-keyframes animationFrames {
+
+  0% {
+
+    opacity:0;
+
+    -webkit-transform:  translate(0px,-25px)  ;
+
+  }
+
+  100% {
+
+    opacity:1;
+
+    -webkit-transform:  translate(0px,0px)  ;
+
+  }
+
+}
+
+
+
+@-o-keyframes animationFrames {
+
+  0% {
+
+    opacity:0;
+
+    -o-transform:  translate(0px,-25px)  ;
+
+  }
+
+  100% {
+
+    opacity:1;
+
+    -o-transform:  translate(0px,0px)  ;
+
+  }
+
+}
+
+
+
+@-ms-keyframes animationFrames {
+
+  0% {
+
+    opacity:0;
+
+    -ms-transform:  translate(0px,-25px)  ;
+
+  }
+
+  100% {
+
+    opacity:1;
+
+    -ms-transform:  translate(0px,0px)  ;
+
+  }
+
+}
+
+  
+
+ 
+
+ 
+
+ #table{
+
+	 margin-top:12%;
+
+	  margin-left:0%;
+
+		width:50%;
+
+	
+
+ 
+
+ position:absolute;
+
+float:left;
+
+padding:30px;
+
+z-index:100;
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+ .table_secondrow{
+
+	 margin-top:70%;
+
+	  margin-left:0%;
+
+ 
+
+ position:absolute;
+
+float:left;
+
+padding:400px;
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+ .textwidget{
+
+	 margin-top:-25px;
+
+ 
+
+ }
+
+
+
+ .table_div{
+
+	 padding:100px;
+
+	  padding-bottom:200px;
+
+
+
+	  width:300px;
+
+
+
+	  padding-left:100px;
+
+ }
+
+
+
+
+
+ .table_row{
+
+	 padding:100px;
+
+
+
+ }
+
+
+
+
+
+div.table1, div.table2, div.table3, div.table4, div.table5, div.table6 {
+
+		border-radius:2px;
+
+border:2px;
+
+border-color:black;
+
+	font-size:12px;
+
+	z-index:600 !important;
+
+	color:black;
+
+	height:100px;
+
+	width:150px;
+
+   border-style:solid;
+
+	background-color:#f1c40f;
+
+    opacity:0.8;
+
+   	padding:30px;
+
+    display:block !important;
+
+    position:absolute;
+
+
+
+/*
+
+-webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,1);
+
+box-shadow: 1px 1px 2px 1px rgba(0,0,0,1);
+
+*/
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+.arrow-up {
+
+width: 0;
+
+height: 0;
+
+border-style: solid;
+
+border-width: 0 200px 300px 200px;
+
+border-color: transparent transparent rgb(0,0,1) transparent;
+
+
+
+float:left;
+
+position:relative;
+
+
+
+}
+
+
+
+
+
+
+
+.arrow-down{
+
+	width: 0;
+
+height: 0;
+
+border-style: solid;
+
+border-width: 300px 200px 0 200px;
+
+color: transparent;
+
+opacity:0.8;
+
+border-color: rgb(0,0,1) transparent transparent transparent;
+
+float:left;
+
+position:relative;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#images001b{
+
+	
+
+	background-color:white;
+
+	
+
+	margin-top:0px;
+
+	z-index:100 !important;
+
+	height:20%;
+
+	width:100%;
+
+	position:relative;
+
+	 opacity: 0.4;
+
+	
+
+	overflow:visible;
+
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+#images_define > img{
+
+
+
+background-size: cover;
+
+float:left;
+
+margin-bottom:500px;
+
+vertical-align:middle;
+
+
+
+
+
+
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#images_define
+
+
+
+
+
+{
+
+
+
+	margin-left:-50px;
+
+	position:relative;
+
+	margin-top:25%;
+
+	margin-left:-5px;
+
+	height:40%;
+
+	width:101%;
+
+	float:left;
+
+	
+
+	
+
+	z-index:200 !important;
+
+	overflow:hidden;
+
+	
+
+	
+
+	
+
+	
+
+	 background-size: cover;
+
+    background-repeat: no-repeat;
+
+	
+
+	
+
+	opacity:1;
+
+	
+
+	z-index: 200;
+
+	
+
+	
+
+		
+
+	
+
+
+
+
+
+  
+
+    
+
+  animation: animationFrames ease 1s;
+
+  animation-iteration-count: 1;
+
+  transform-origin: 50% 50%;
+
+  animation-fill-mode:forwards; /*when the spec is finished*/
+
+  -webkit-animation: animationFrames ease 1s;
+
+  -webkit-animation-iteration-count: 1;
+
+  -webkit-transform-origin: 50% 50%;
+
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+
+  -moz-animation: animationFrames ease 1s;
+
+  -moz-animation-iteration-count: 1;
+
+  -moz-transform-origin: 50% 50%;
+
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+
+  -o-animation: animationFrames ease 1s;
+
+  -o-animation-iteration-count: 1;
+
+  -o-transform-origin: 50% 50%;
+
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+
+  -ms-animation: animationFrames ease 1s;
+
+  -ms-animation-iteration-count: 1;
+
+  -ms-transform-origin: 50% 50%;
+
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#bar-images, #bar-images > img
+
+{
+
+	
+
+
+
+	text-align:center;
+
+	position:relative;
+
+	margin-top:-25px;
+
+	margin-left:0%;
+
+	margin-bottom:200px;
+
+
+
+	height:80%;
+
+	width:100%;
+
+	float:left;
+
+	border-radius:40px;
+
+	
+
+	
+
+	
+
+	z-index:50 !important;
+
+	overflow:hidden;
+
+	
+
+	
+
+	
+
+	
+
+	 background-size: cover;
+
+    background-repeat: no-repeat;
+
+	
+
+	
+
+	opacity:1;
+
+	
+
+	z-index: 700;
+
+	
+
+  animation: animationFrames ease 1s;
+
+  animation-iteration-count: 1;
+
+  transform-origin: 50% 50%;
+
+  animation-fill-mode:forwards; /*when the spec is finished*/
+
+  -webkit-animation: animationFrames ease 1s;
+
+  -webkit-animation-iteration-count: 1;
+
+  -webkit-transform-origin: 50% 50%;
+
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+
+  -moz-animation: animationFrames ease 1s;
+
+  -moz-animation-iteration-count: 1;
+
+  -moz-transform-origin: 50% 50%;
+
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+
+  -o-animation: animationFrames ease 1s;
+
+  -o-animation-iteration-count: 1;
+
+  -o-transform-origin: 50% 50%;
+
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+
+  -ms-animation: animationFrames ease 1s;
+
+  -ms-animation-iteration-count: 1;
+
+  -ms-transform-origin: 50% 50%;
+
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+
+
+		
+
+
+
+    
+
+  
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.aligncenter {
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+
+
+
+
+
+
+#widget-widget_sp_image
+
+{
+
+	
+
+	margin-left:200px;
+
+}
+
+
+
+
+
+
+
+
+#circle_image > img {
+
+	max-width:initial !important;
+
+
+
+height:100% !important;
+
+margin-top:0%;
+
+margin:auto;
+
+
+
+background-size:cover;
+
+float:left;
+
+position:relative;
+
+}
+
+
+
+
+
+
+
+#table > img
+
+{
+
+	padding:0px;
+
+	margin-top:auto;
+
+	margin-bottom:auto;
+
+	margin-left:auto;
+
+	margin-right:auto;
+
+	float:left;
+
+	vertical-align:top;
+
+	z-index:500;
+
+	
+
+}
+
+
+
+
+
+
+
+#profile-pic-wrap
+
+{
+
+	margin-top:-5%;
+
+	margin-left:60%;
+
+	
+
+	width:900px;
+
+	margin-bottom:0px;
+
+	z-index:200;
+
+}
+
+
+
+
+
+
+
+#profile-pic {
+
+	
+
+	
+
+    background-size: 500px 500px;
+
+    background-repeat: no-repeat;
+
+	
+
+	
+
+	opacity:1;
+
+	
+
+	z-index: 200;
+
+	width: 500px;
+
+	height: 500px;
+
+	
+
+	border: 2px solid black;
+
+	border-radius: 100px;
+
+	-webkit-border-radius: 250px;
+
+	-moz-border-radius: 250px;
+
+	
+
+	position: absolute;
+
+    overflow:hidden;
+
+    
+
+
+
+
+
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-btn-bg{
+
+	position: absolute;
+
+	background-color: black;
+
+	width: 100%;
+
+	height: 30%;
+
+	bottom: 0px;
+
+}
+
+
+
+
+
+#line-break{
+
+	border: 2px solid black;
+
+
+
+
+
+	 border-style:solid; 
+
+	  color:black;
+
+		 padding-top:200px; 
+
+		  font-size:30px;
+
+			 font-weight:700;
+
+			   text-align:center;
+
+				  height:200px; 
+
+					width:99%;
+
+					 vertical-align:middle;
+
+					   margin-top:15%; 
+
+						  float:left; 
+
+							position:relative;
+
+	
+
+}
+
+
+
+
+
+.table_footer_single
+
+{
+
+	background-color:#34495e;
+
+	width:25%;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+
+border: 2px solid black;
+
+
+
+
+
+    position: relative;
+
+    left: 0;
+
+    bottom: -400px;
+
+ 
+
+	height: 400px;
+
+	
+
+
+
+
+
+
+
+	z-index:400 !important;
+
+
+
+
+
+
+
+	
+
+}
+
+
+
+
+
+
+
+#footer-page{
+
+
+
+
+
+bottom:0;
+
+margin-bottom:0px;
+
+
+
+
+
+
+
+    left: 0;
+
+   
+
+   
+
+	
+
+
+
+
+
+	
+
+
+
+	clear:both;
+
+
+
+	z-index:400 !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.footer1{
+
+
+
+
+
+
+
+
+
+	margin-bottom:0px;
+
+
+
+	float:left;
+
+	text-align:justify;
+
+	position:relative;
+
+
+
+
+
+		color:#ffffff;
+
+padding:5px;
+
+}
+
+
+
+	
+
+	
+
+	
+
+.footer2{
+
+
+
+
+
+	margin-bottom:0px;
+
+
+
+	float:left;
+
+	text-align:justify;
+
+	position:relative;
+
+
+
+
+
+		color:#ffffff;
+
+padding:5px;
+
+
+
+
+
+}
+
+
+
+.footer3{
+
+
+
+
+
+
+
+	margin-bottom:0px;
+
+	float:left;
+
+text-align:justify;
+
+	position:relative;
+
+
+
+		
+
+		color:#ffffff;
+
+	padding:5px;
+
+
+
+		
+
+		}
+
+
+
+.footer4{
+
+
+
+	
+
+margin-top:0px;
+
+	margin-bottom:0px;
+
+	float:right;
+
+text-align:justify;
+
+	position:relative;
+
+
+
+
+
+	color:#ffffff;
+
+padding:5px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+#test-text{
+
+	margin-top:600px;
+
+	float:left;
+
+	display:block;
+
+	width:10px;
+
+	height:auto;
+
+	font-size:60px;
+
+	font-weight:600;
+
+	transform: rotate(270deg);
+
+	transform-origin: left top 0;
+
+margin-left:100px;
+
+color:white;
+
+position:relative;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+#testimonials {
+
+
+
+
+
+position:relative;
+
+
+
+height:auto;
+
+width:900px;
+
+padding:200px;
+margin-left:100px;
+
+
+
+
+margin-top:-200px;
+
+margin-bottom:10px;
+
+
+
+
+
+vertical-align: middle;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#testimonials > div.test-1 {
+
+
+
+	margin-top:10px;
+
+
+
+
+
+border:2px solid black;
+
+	  margin-left:0%;
+
+		width:60%;
+
+	
+
+ 
+
+ position:relative;
+
+float:left;
+
+background:green;
+
+height:auto;
+
+
+
+
+
+padding:120px;
+
+
+
+z-index:100;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#testimonials > div.test-2 {
+
+
+
+	margin-top:10px;
+
+
+
+padding:120px;
+
+
+
+border:2px solid black;
+
+	  margin-left:15%;
+
+		width:60%;
+
+	
+
+ 
+
+ position:relative;
+
+float:left;
+
+background:green;
+
+height:auto;
+
+
+
+
+
+z-index:100;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#testimonials > div.test-3 {
+
+
+
+
+
+	margin-top:10px;
+
+padding:120px;
+
+
+
+border:2px solid black;
+
+	  margin-left:25%;
+
+		width:60%;
+
+	
+
+ 
+
+ position:relative;
+
+float:left;
+
+background:green;
+
+height:auto;
+
+
+
+
+
+z-index:100;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+#testimonials > div.test-4 {
+
+
+
+
+
+	margin-top:10px;
+
+padding:120px;
+
+
+
+border:2px solid black;
+
+	  margin-left:35%;
+
+		width:60%;
+
+	
+
+ 
+
+ position:relative;
+
+float:left;
+
+background:green;
+
+height:auto;
+
+
+
+
+
+z-index:100;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.widget-title{
+
+	width:100%;
+
+	color:white;
+
+	z-index:5000 !important;
+
+	height:100px;
+
+	position:relative;
+
+	padding:0px;
+
+	margin-bottom:10px;
+
+	vertical-align:top;
+
+	text-decoration:none;
+
+	margin-top:-100px;
+
+
+
+	
+
+	
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+#if_is_front_page{
+
+
+
+
+
+
+
+	color: white;
+
+	background:black;
+
+display:block;
+
+float:left;
+
+text-align:left;
+
+position:absolute;
+
+	font-size:16px;
+
+	z-index:800 !important;
+
+	margin-left:5%;
+
+	margin-right:30%;
+
+	margin-top:15%;
+
+	width:50%;
+
+	text-align:left;
+
+	
+
+	}
+
+	
+
+
+
+
+
+	
+
+
+
+	.woocommerce-breadcrumb{
+		display:none;
+		
+	}
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+.widget-container{
+
+	background:#23282d;
+
+	color:grey;
+
+	width:55%;
+
+	height:250px;
+
+	color:grey;
+
+	z-index:5000 !important;
+
+	position:relative;
+
+	
+
+}
+
+
+
+
+
+	.readmore{
+
+		display:none;
+
+	}
+
+		
+
+	
+
+	
+
+	
+
+	.onsale{
+
+		display:none !important;
+
+
+
+	}
+
+
+
+#sidebar{
+
+	display:none;
+
+
+
+}
+
+
+
+.attachment-shop_single, .size-shop_single, div.woocommerce-product-gallery.woocommerce-product-gallery--with-images {
+
+
+
+	width:300px !important;
+
+	height:340px!important;
+
+
+
+}
+
+
+
+section > h2{
+
+	display:none;
+
+	margin-top:-300px;
+
+}
+
+
+
+	.product-type-simple > a > img, .products{
+
+		list-style:none !important;
+
+		display:inline-flex !important;
+
+		width:120px !important;
+
+		height:140px !important;
+
+		margin-top:75px;
+
+	
+
+
+
+
+
+
+
+	}
+
+
+
+	.orderby, .woocommerce-result-count{
+
+
+
+		display:none !important;
+
+
+
+	}
+
+h2.woocommerce-loop-product__title{
+
+
+
+
+
+		width:200px !important;
+
+		text-decoration:none !important;
+
+		font-size:12px;
+
+		list-style:none !important;
+
+		color:white;
+
+
+
+	
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		 
+
+		 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.woocommerce-MyAccount-content{
+
+float:left;
+
+position:relative;
+
+width:600px;
+
+margin-left:500px;
+
+margin-top:-510px;
+
+
+
+
+
+
+
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+.images{
+
+	opacity:1 !important;
+
+
+
+
+
+
+}
+
+
+
+
+
+div.summary.entry-summary{
+
+	margin-left:500px;
+
+float:left;
+
+position:relative;
+
+margin-top:-300px;
+
+color:white;
+
+
+
+
+
+}
+
+
+
+div.summary.entry-summary > div,  .tabs, .wc-tabs{
+
+	display:none;
+
+	
+
+
+
+}
+
+
+
+
+
+#reviews{
+
+	display:none;
+
+
+
+}
+
+
+
+
+
+div.summary.entry-summary > form > button{
+
+
+
+	margin-top:20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  background: #3498db;
+
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+
+  -webkit-border-radius: 8;
+
+  -moz-border-radius: 8;
+
+  border-radius: 8px;
+
+  font-family: Arial;
+
+  color: #ffffff;
+
+  font-size: 20px;
+
+  padding: 3px 14px 0px 14px;
+
+  text-decoration: none;
+
+}
+
+
+
+div.summary.entry-summary > form > button {
+
+  background: #3cb0fd;
+
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+
+  text-decoration: none;
+
+}
+
+
+
+
+
+section > h2{
+
+
+
+	color:white;
+
+
+
+}
+
+
+
+#tab-description{
+
+
+
+width:700px;
+
+margin-left:500px;
+
+color:white;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 782px ) {
+
+		html { width:200%;
+
+			margin-top: 46px !important; 
+
+		      zoom: 0.5; /* IE */
+
+-moz-transform: scale(0.5); /* Firefox */
+
+-moz-transform-origin: 0 0;
+
+-o-transform: scale(0.5); /* Opera */
+
+-o-transform-origin: 0 0;
+
+-webkit-transform: scale(0.5); /* Safari And Chrome */
+
+-webkit-transform-origin: 0 0;
+
+transform: scale(0.5); /* Standard Property */
+
+transform-origin: 0 0;  /* Standard Property */
+
+		}
+
+		
+
+	}
+
+
+
+
+
+	@media screen and ( max-width: 300px ) {
+
+		
+
+		
+
+
+
+	
+
+		html { width:200%;
+
+			margin-top: 46px !important; 
+
+		      zoom: 0.5; /* IE */
+
+-moz-transform: scale(0.5); /* Firefox */
+
+-moz-transform-origin: 0 0;
+
+-o-transform: scale(0.5); /* Opera */
+
+-o-transform-origin: 0 0;
+
+-webkit-transform: scale(0.5); /* Safari And Chrome */
+
+-webkit-transform-origin: 0 0;
+
+transform: scale(0.5); /* Standard Property */
+
+transform-origin: 0 0;  /* Standard Property */
+
+		}
+
+		
+
+	}

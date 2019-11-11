@@ -1,0 +1,139 @@
+
+
+
+.woocommerce
+{
+	display:inline-block;
+	width:900px;
+	padding:150px;
+	float:left;
+	margin-top:100px;
+	margin-left:-300px;
+	margin-right:500px;
+	vertical-align:top;
+	
+	z-index:200 !important;
+	
+
+	
+}
+
+
+.woocommerce .products ul, .woocommerce ul.products
+{
+	width:800px;
+}
+.product
+{
+	width:400px !important;
+	height:150px;
+	
+	color:white;
+	text-align:left;
+	
+	
+	padding:10px;
+	margin:100px;
+	
+	float:right;
+	position:relative;
+	
+border:thick;
+text-decoration:none;
+	border-color:#FFF;
+display:list-item !important;
+border-style:solid;
+border-width:0.5px;
+box-shadow:#999;
+
+
+margin-left:-400px;
+
+}
+
+#table > img
+{
+	display:none;
+}
+
+
+.excerpt
+{
+	width:280px;
+	height:200px;
+	float:left;
+	position:absolute;
+	margin-top:-140px;
+margin-left:-200px;
+	color:White;
+	
+position:relative;
+
+	
+	
+	
+
+}
+
+
+.woocommerce ul.products li.product h3
+
+
+{
+	float:left;
+text-align:left;
+	position:relative;
+	margin-left:100px;
+margin-left:-200px !important;
+margin-top:-168px !important;
+	
+	background-color:white;
+	width:297px;
+
+	
+	
+	
+}
+
+
+.woocommerce ul.products li.product .price
+{
+	
+	margin-top:-200px;
+	margin-left:37px !important;
+	background-color:#000;
+	color:White;
+	font-size:20px !important;
+	height:30px;
+	width:60px;
+	
+	
+	
+	
+}
+
+
+.product.type-product.status-publish.has-post-thumbnail.instock.shipping-taxable.product-type-simple > a > img
+{
+	margin-left:95px;
+
+	box-shadow:grey;
+	border:solid;
+	border-color:grey;
+	height:145px;
+}
+	
+
+
+.woocommerce ul.products li.product a img
+{
+	position:relative;
+	float:left;
+	margin-left:-300px;
+	width:100px;
+	height:150px;
+	
+	
+}
+
+

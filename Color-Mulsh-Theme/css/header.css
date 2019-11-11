@@ -1,0 +1,562 @@
+html{
+
+
+
+
+float:left;
+
+width:98%;
+
+
+}
+
+
+
+
+
+#sticky-menu{
+
+
+
+	border-style: solid;
+	border-width: 10px;
+	border-color:green;
+
+	position:fixed;
+	height:80px;
+	width:100%;
+	background-color:white;
+	text-align:center;
+	float:left;
+	
+	opacity:0;
+	
+	
+	
+	}
+
+
+
+
+	#site-title-sticky, #site-description-sticky{
+
+		position:fixed;
+
+
+
+
+
+	}
+
+
+
+
+
+#wpadminbar, #admin-bar-css { 
+
+	
+
+	
+
+	display:block !important;
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+
+
+
+
+
+
+}
+
+
+
+
+
+head{
+
+	
+
+	display:block;
+
+	
+
+}
+
+
+
+
+
+
+.menu{
+
+list-style:none;
+
+	text-decoration:none;
+
+
+	width:auto;
+
+
+
+height:100px;
+
+
+
+top:105px;
+float:right;
+right:0px;
+
+
+
+
+
+	text-align:left;
+
+
+	color:black;
+
+
+	margin-right:10px;
+	z-index:1500 !important;
+
+position:absolute;
+
+
+}
+
+
+
+.menu-item{
+
+font-family:comic_font_3;
+text-decoration:none;
+font-size:30px;
+vertical-align:middle;
+
+
+
+
+       height:50px;
+
+	padding:5px;
+
+	text-decoration:none;
+
+
+
+
+
+
+	box-shadow:5px;
+
+
+		z-index: 3000;
+float:left;
+
+	
+
+
+
+}
+
+
+
+
+
+.menu-item a{
+
+
+
+
+	text-decoration:none;
+
+	margin-top:20px;
+
+	color:black;
+
+	font-weight:400;
+
+	font-size:25px;
+	padding:10px;
+
+
+float:left;
+
+
+
+	
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.menu-item:hover{
+
+	  -webkit-transition-duration: 0.4s; /* Safari */
+
+    transition-duration: 0.4s;
+
+
+
+   
+
+}
+
+	
+
+	
+
+	
+
+	
+
+
+
+	#search_box{
+
+float:right;
+margin-top:3%;
+
+padding-right:10px;
+position:relative;
+
+
+z-index:2400;
+
+
+
+
+
+
+
+	}
+
+
+
+
+	
+	
+
+	
+
+	
+
+
+
+#menu-container{
+
+
+
+	margin-top:300px;
+
+
+
+
+	margin-left:100px !important;
+
+
+
+margin-top:00px;
+
+text-decoration:none;
+
+
+margin-left:-20%;
+
+
+
+    height:300px;
+
+
+
+
+
+	overflow:hidden;
+
+	vertical-align:top;
+
+	
+
+
+
+
+position:absolute;
+
+
+
+z-index:2500 !important;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#site-logo, #site-logo > a > img{
+
+	width:auto;
+
+	height:auto;
+
+	max-width: 200px;
+
+	max-height: 100px;
+
+margin-left:20px;
+
+margin-top:-5px;
+
+
+
+
+	margin-right:100%;
+
+
+
+	
+
+
+
+	z-index:2000;
+
+	position:fixed;
+
+	float:left;
+
+	
+
+	
+
+	
+
+}
+
+
+
+
+
+	
+
+#top_divider {
+
+	
+
+	
+
+	
+
+	box-shadow:#333;
+
+	
+
+
+
+	opacity:1;
+
+	margin-left:-5px;
+
+	float:left;
+
+	margin-top:-30px;
+
+	height:150px;
+
+	width:101%;
+
+	z-index:1000 !important;
+
+	position:absolute;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-title-background{
+
+
+
+background-image: url("../images/title-background.png");
+background-repeat: no-repeat;
+background-size: 300px 200px;
+
+margin-left:50px;
+
+width:300px;
+height:200px;
+float:left;
+position:relative;
+
+z-index:1500;
+
+
+
+
+}
+
+
+
+
+
+.site-title{
+
+	
+
+	font-family:comic_font;
+
+	color:red;
+
+
+	transform: rotate(-20deg);
+
+
+
+
+	
+
+		margin-left:20px;
+
+		font-size:40px;
+
+
+
+		font-weight: 600;
+
+
+	margin-top:12%;
+
+position: absolute;
+
+text-align:left;
+
+width:300px;
+
+	z-index:2000 !important;
+
+	float:left;
+
+
+
+}
+
+
+
+.site-description{
+
+
+	font-family:comic_font_2;
+
+
+margin-left:6%;
+
+		font-size:24px;
+
+
+
+		font-weight: 600;
+
+		color:white;
+
+	margin-top:6%;
+
+position:absolute;
+
+text-align:left;
+
+width:400px;
+
+	z-index:2000 !important;
+
+	float:left;
+
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+

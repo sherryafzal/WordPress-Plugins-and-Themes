@@ -1,0 +1,537 @@
+html{
+
+
+
+
+
+		
+
+float:left;
+
+
+
+
+
+width:98%;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+#sticky-menu{
+
+	position:fixed;
+	height:80px;
+	width:100%;
+	background-color:white;
+	text-align:center;
+	float:left;
+	
+	opacity:0;
+	
+	
+	
+	
+	
+	}
+
+
+
+
+
+
+
+#wpadminbar, #admin-bar-css { 
+
+	
+
+	
+
+	display:block !important;
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+
+
+
+
+
+
+}
+
+
+
+
+
+head{
+
+	
+
+	display:block;
+
+	
+
+}
+
+
+
+
+
+
+.menu{
+
+list-style:none;
+
+	text-decoration:none;
+
+
+	width:auto;
+
+
+
+height:100px;
+
+
+
+top:0px;
+float:right;
+right:0px;
+
+
+
+
+
+	text-align:left;
+
+
+	color:white;
+
+
+	margin-right:10px;
+	z-index:1500 !important;
+
+position:absolute;
+
+
+}
+
+
+
+.menu-item{
+
+
+text-decoration:none;
+
+vertical-align:middle;
+
+
+
+
+       height:50px;
+
+	padding:5px;
+
+	text-decoration:none;
+
+
+
+
+
+
+	box-shadow:5px;
+
+
+		z-index: 3000;
+float:left;
+
+	
+
+
+
+}
+
+
+
+
+
+.menu-item a{
+
+
+
+
+	text-decoration:none;
+
+	margin-top:20px;
+
+	color:white;
+
+	font-weight:400;
+
+	font-size:15px;
+
+float:left;
+
+
+
+	
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.menu-item:hover{
+
+	  -webkit-transition-duration: 0.4s; /* Safari */
+
+    transition-duration: 0.4s;
+
+
+
+   
+
+}
+
+	
+
+	
+
+	
+
+	
+
+
+
+	#search_box{
+
+margin-top:30px;
+
+float:right;
+
+margin-left:60%;
+
+
+
+position:fixed;
+
+z-index:2400;
+
+
+
+
+
+
+
+	}
+
+
+
+
+	
+	
+
+	
+
+	
+
+
+
+#menu-container{
+
+
+
+	margin-top:300px;
+
+
+
+
+	margin-left:100px !important;
+
+
+
+margin-top:00px;
+
+text-decoration:none;
+
+
+margin-left:-20%;
+
+
+
+    height:300px;
+
+
+
+
+
+	overflow:hidden;
+
+	vertical-align:top;
+
+	
+
+
+
+
+position:absolute;
+
+
+
+z-index:2500 !important;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#site-logo, #site-logo > a > img{
+
+	width:auto;
+
+	height:auto;
+
+	max-width: 200px;
+
+	max-height: 100px;
+
+margin-left:20px;
+
+margin-top:-5px;
+
+
+
+
+
+	margin-right:100%;
+
+
+
+	
+
+
+
+	z-index:2000;
+
+	position:fixed;
+
+	float:left;
+
+	
+
+	
+
+	
+
+}
+
+
+
+
+
+	
+
+#top_divider {
+
+	
+
+	
+
+	
+
+	box-shadow:#333;
+
+	border-bottom:10px 10px;
+
+
+
+	opacity:1;
+
+	margin-left:-5px;
+
+	float:left;
+
+	margin-top:-30px;
+
+	height:150px;
+
+	width:101%;
+
+	z-index:1000 !important;
+
+	position:absolute;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-title{
+
+	
+
+
+
+
+
+	
+
+	
+
+		margin-left:200px;
+
+		font-size:30px;
+
+
+
+		font-weight: 600;
+
+		color:white;
+
+	margin-top:20px;
+
+position: absolute;
+
+text-align:left;
+
+width:300px;
+
+	z-index:2000 !important;
+
+	float:left;
+
+
+
+}
+
+
+
+.site-description{
+
+margin-left:300px;
+
+		font-size:24px;
+
+
+
+		font-weight: 600;
+
+		color:white;
+
+	margin-top:30px;
+
+position:absolute;
+
+text-align:left;
+
+width:400px;
+
+	z-index:2000 !important;
+
+	float:left;
+
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
